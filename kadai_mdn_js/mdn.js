@@ -1,2 +1,5 @@
-const today = new Date ("2024-11-04");
-console.log('2024年11月4日');
+const today = new Date ();
+const year = today.getFullYear();
+const month = today.getMonth() +1;
+const day = today.getDate();
+console.log(year + '年', month + '月', day + '日');
